@@ -7,7 +7,7 @@ import fr.eni.projet.dal.jdbc.UtilisateurDAOImpl;
 
 public class DAOFactory {
 	
-	public static ArticlesVendusDAO getArticles_vendusDAO() {
+	public static ArticlesVendusDAO getArticlesVendusDAO() {
 		return new ArticlesVendusDAOImpl();
 	}
 	

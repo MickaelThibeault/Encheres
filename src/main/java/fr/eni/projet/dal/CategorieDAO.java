@@ -11,4 +11,6 @@ public interface CategorieDAO {
 	public List<Categorie> getCatalogue() throws DALException;
 	public void insertCategorie(String libelle) throws DALException;
 	public void update(String libelle,Integer id) throws DALException;
+	public List<Categorie> selectAll() throws DALException;
+	public void delete(int id) throws DALException;
 }
